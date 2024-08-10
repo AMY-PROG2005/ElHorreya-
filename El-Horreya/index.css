@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Tajawal", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    direction: rtl;
+}
+main{
+    overflow: hidden;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* Responsive Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+span{
+    color: #d30000;
+    font-weight: 700;
+}
+.link-active{
+    color: var(--primary);
+    font-weight: 800;
+}
+
+:root {
+    --main-color: #000;
+    --background-color: #f4f4f4;
+    --second-color: #fff;
+    --primary: #d30000;
+}
